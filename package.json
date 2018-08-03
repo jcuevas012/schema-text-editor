@@ -1,5 +1,5 @@
 {
-  "name": "react-webpack-stater",
+  "name": "schema-technical-challenge",
   "version": "1.0.0",
   "description": "This is a stater projecty",
   "main": "index.js",
@@ -11,8 +11,14 @@
   "author": "Jorhge",
   "license": "MIT",
   "dependencies": {
+    "immutable": "^3.8.2",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-immutable": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

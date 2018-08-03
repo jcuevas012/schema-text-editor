@@ -2,3 +2,47 @@ h1 {
     align-content: center;
     color: blue;
 }
+
+#document *{
+    box-sizing: border-box;
+}
+#document{
+    margin: 20px auto;
+    max-width: 800px;
+}
+label{
+    display: block;
+    margin: 20px 0 10px;
+}
+input[type="text"], textarea{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    
+    font-size: 13px;
+}
+
+.bold_paragraph {
+font-weight: bold;
+}
+
+.italic_paragraph {
+    font-style: italic;
+}
+
+#preview{
+    padding: 10px 20px;
+    border: 1px dotted #ccc;
+    margin: 30px 0;
+}
+h3{
+    margin-top: 10px;
+}
+#checkboxes input{
+    display: inline-block;
+    margin-right: 10px;
+}
+#checkboxes label{
+    display: inline-block;
+    margin-top: 0;
+}
